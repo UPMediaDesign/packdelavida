@@ -1,0 +1,84 @@
+.green-nav{margin-top: -60px}
+.varices{background-size: cover !important;}
+
+
+.chat-consult{ background-color:#33d0b4}
+.chat-consult .separator{ padding:15px;}
+.comentario-doc{ text-align: right}
+
+.content-coment { background-color:#3ee1c4; border-radius:20px; padding:30px; color:#525252; font-size:16px; margin:15px 0}
+.comentario-doc .content-coment{ background-color:#27a48e; border-radius:20px; color:#f2f2f2; }
+
+.comentario-user .content-coment:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 20px;
+      border-style: solid;
+      border-color: transparent #3ee1c4 transparent transparent;
+      top: 20px;
+      left: -40px;
+}
+
+.comentario-doc .content-coment:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 20px;
+      border-style: solid;
+      border-color: transparent transparent transparent #27a48e;
+      top: 20px;
+      right: -40px;
+}
+
+.contactt h2 {
+font-family: 'helveticaNeue', Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size: 40px;
+text-align: center;
+color: #8d8d8d;
+line-height: 140%;
+margin-bottom: 0;
+margin-top:40px;
+}
+
+.comment-reply-title, .comment-notes{ display:none}
+
+.contactt input, .contactt textarea{ width:100%; border:1px solid #3ee1c4; border-radius: 10px; padding:20px; font-size:20px; color:#525252;}
+.contactt textarea{ min-height:200px}
+.form-allowed-tags{ display:none}
+
+.form-submit{ text-align:center; margin-top:30px;}
+.contactt #submit{ background-color:#3ee1c4; color:#fff ; width:50%; margin: 0 auto;}
+
+.testiimagen{ padding:30px; border-radius:400px}
+
+.slides-navigation.benefit-ctrl{ display: none}
+
+.modal-inscripcion input , .modal-inscripcion textarea{ width:100%; padding:15px; border:1px solid #3ee1c4; border-radius: 10px; font-size:16px; color:#525252; margin-bottom:10px; }
+
+
+.wpcf7-checkbox {
+font-size: 16px;
+font-family:  helvetica, arial, sans-serif;
+padding: 10px 20px 20px 0;
+display: block;
+}
+
+.wpcf7-list-item{ width: auto; display:inline-block; float:left; margin-bottom:15px;}
+.panel-default{ border-bottom: 0px !important; box-shadow:0 0 0 transparent !important}
+
+.questions a:hover{ text-decoration:none !important; background-color:rgb(34,162,243); color:#fff;}
+
+
+.videos-area figcaption img {
+width: 90px !important;
+position: absolute;
+top: 34%;
+margin: 0px auto;
+left: 35%;
+}
+
+.videos-area figcaption img:hover{ top:33%}

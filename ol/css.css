@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image:url(fondo.jpg);
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	margin: 0 auto;
+}
+
+
+#contenedor_principal {
+	margin: 0 auto;
+	width:963px;
+	padding-left:0px;
+	padding-right:0px;
+    background-image:url(fondo_blanco.png);
+}
+
+
+#contenedor {
+	margin: 0 auto;
+	width:801px;
+}
+
+
+#banner {
+	height:248px;
+	width:801px;
+	background-image:url(banner.jpg);
+}
+
+
+#youtube{
+	
+	height:298px;
+	width:801px;
+	background-image:url(youtube.jpg);
+
+}
+
+
+#video_youtube{
+	height:281px;
+	width:582px;
+	padding-top:7px;
+	padding-left:152px;
+}
+
+#texto1{
+	width:515px;
+	padding-top:10px;
+	padding-bottom:0px;
+	text-align:justify;
+	font-family:Helvetica;
+	font-size:12px;
+	line-height:18px;
+	color:#666;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 50;
+	margin-left: auto;
+}
+
+
+#texto2{	
+	height:24px;
+	width:599px;
+	margin: 0 auto;
+	padding-top:10px;
+	text-align:center;
+	font-family:Helvetica;
+	font-size:18px;
+	color:#C00;
+}
+
+#botones{
+	width:560px;
+	padding-bottom:10px;
+	margin-top: 50;
+	margin-right: auto;
+	margin-bottom: 50;
+	margin-left: auto;
+	padding: 0;
+}
+
+.ccdm {
+	width: 434px;
+	margin: auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+.brochure{
+	width: 327px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.footer{
+	width: 750px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: autopx;
+	margin-left: auto;
+}
