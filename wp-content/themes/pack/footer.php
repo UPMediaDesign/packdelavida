@@ -1,5 +1,5 @@
 		<?php if(is_page() && !is_page(164)){?>
-        <div class="clear separator"></div>
+        
         <section>
         	
         <!-- Sugerencias para varices  -->

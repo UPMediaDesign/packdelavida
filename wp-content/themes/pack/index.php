@@ -103,7 +103,7 @@ Template Name: Home
                         <p>El 70% de las muertes en Chile, están relacionadas directa e 
 indirectamente a malos hábitos de alimentación y estilos de vida.
 El Dr. Jara, vocero médico de la Fundación Banmédica, está a tu disposción para orientarte en el cuidado de la diabetes, hipertensión y enfermedades cardiovasculares. Haz tus preguntas online.</p>
-                        <a href="<?php echo get_page_link(11)?>">Ir a Consulta</a>
+                        <a href="<?php echo get_page_link(424)?>">Ir a Consulta</a>
                     </div>
                </div>
             </div>

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"background",
+				"background-position"
+			],
+			[
 				"padding",
 				"padding-left"
 			],
@@ -14,10 +18,6 @@
 			[
 				"ble",
 				"blue-girl"
-			],
-			[
-				"background",
-				"background-size"
 			],
 			[
 				"margi",
@@ -263,7 +263,7 @@
 			"file": "wp-content/themes/pack/index.php",
 			"settings":
 			{
-				"buffer_size": 12110,
+				"buffer_size": 12111,
 				"line_ending": "Windows"
 			}
 		},
@@ -271,15 +271,39 @@
 			"file": "wp-content/themes/pack/header.php",
 			"settings":
 			{
-				"buffer_size": 5632,
+				"buffer_size": 5808,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/pack/alo-doctor.php",
+			"settings":
+			{
+				"buffer_size": 11729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/pack/functions.php",
+			"settings":
+			{
+				"buffer_size": 17428,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/pack/footer.php",
+			"settings":
+			{
+				"buffer_size": 3363,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "wp-content/themes/pack/jstyle.css",
 			"settings":
 			{
-				"buffer_size": 2423,
+				"buffer_size": 5376,
 				"line_ending": "Unix"
 			}
 		},
@@ -287,7 +311,7 @@
 			"file": "wp-content/themes/pack/style.css",
 			"settings":
 			{
-				"buffer_size": 65037,
+				"buffer_size": 65493,
 				"line_ending": "Unix"
 			}
 		}
@@ -316,6 +340,7 @@
 	},
 	"file_history":
 	[
+		"/Users/upmedia/GitHub/packdelavida/wp-content/themes/pack/jfunctions.php",
 		"/Users/upmedia/GitHub/packdelavida/wp-content/themes/pack/style.css",
 		"/Users/upmedia/GitHub/packdelavida/wp-config.php",
 		"/Users/upmedia/Desktop/Sitio Alimentate Sano/noticia_2015_mayo_30_15.php",
@@ -442,8 +467,7 @@
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/footer.php",
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/header-egresados.php",
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/error_log",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/.htaccess-bak",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/archive.php"
+		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/.htaccess-bak"
 	],
 	"find":
 	{
@@ -461,6 +485,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".alodoc",
+			"col-md-12 obten",
+			"class=\"suscribe\"",
+			"  .",
 			"case",
 			"col-md-20",
 			";}",
@@ -584,11 +612,7 @@
 			"slide",
 			"subnav",
 			"heade",
-			".mainNav ul",
-			".mainNav ul li a",
-			"ventajaVertical",
-			".boxSoftware",
-			"        <?"
+			".mainNav ul"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -606,7 +630,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -614,15 +638,15 @@
 					"file": "wp-content/themes/pack/index.php",
 					"settings":
 					{
-						"buffer_size": 12110,
+						"buffer_size": 12111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8206,
-								8206
+								4742,
+								4742
 							]
 						],
 						"settings":
@@ -636,7 +660,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1188.0,
+						"translation.y": 1542.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -646,15 +670,15 @@
 					"file": "wp-content/themes/pack/header.php",
 					"settings":
 					{
-						"buffer_size": 5632,
+						"buffer_size": 5808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4540,
-								4540
+								1407,
+								1407
 							]
 						],
 						"settings":
@@ -668,7 +692,101 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1034.0,
+						"translation.y": 1324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/pack/alo-doctor.php",
+					"settings":
+					{
+						"buffer_size": 11729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6225,
+								6225
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 389.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/pack/functions.php",
+					"settings":
+					{
+						"buffer_size": 17428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14319,
+								14319
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4984.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "wp-content/themes/pack/footer.php",
+					"settings":
+					{
+						"buffer_size": 3363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -676,23 +794,23 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "wp-content/themes/pack/jstyle.css",
 					"settings":
 					{
-						"buffer_size": 2423,
+						"buffer_size": 5376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3459,
+								3459
 							]
 						],
 						"settings":
@@ -702,28 +820,29 @@
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 6,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1069.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "wp-content/themes/pack/style.css",
 					"settings":
 					{
-						"buffer_size": 65037,
+						"buffer_size": 65493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59046,
-								59046
+								62445,
+								62445
 							]
 						],
 						"settings":
@@ -737,7 +856,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 30481.0,
+						"translation.y": 30881.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -773,7 +892,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.416951329552,
 			1.0
 		],
 		"rows":

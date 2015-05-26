@@ -15,6 +15,8 @@
     <?php if ( is_search() ) { ?><?php bloginfo('name'); ?> · Resultados<?php } ?>
     <?php if (function_exists('is_tag')) { if ( is_tag() ) { ?><?php bloginfo('name'); ?> · Archivo por Tag · <?php  single_tag_title("", true); } } ?>
 </title>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory')?>/js/jquery.highlight.js"></script>
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />

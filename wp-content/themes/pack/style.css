@@ -420,7 +420,7 @@ a{
   border-top-color: #d5d5d5;
 }
 .container .jumbotron {
-  border-radius: 6px;
+  border-radius: 6px; 
 }
 .jumbotron .container {
   max-width: 100%;
@@ -1369,7 +1369,7 @@ section.anti-arrow:after {
 
 /* Alo Doctor */
 
-.alodoc{display:none;background: url("images/bg-alodoc.jpg"); background-repeat: no-repeat; background-size: 100%}
+.alodoc{background: url("images/bg-alodoc.jpg"); background-repeat: no-repeat; background-size: 100%}
 .alodoc>.container{padding-top:95px;}
 .doc-body img{width: 80%; max-width: 370px; margin: 0 auto; display: block; }
 
@@ -1649,7 +1649,7 @@ list-style: none;
   -moz-transition: 0.5s ease;
   -ms-transition: 0.5s ease;
   transition: 0.5s ease;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -1834,7 +1834,7 @@ border-radius: 5px 5px 5px 5px;
   li.bg1{background-size: cover !important;}
   .sugerences{background-size: cover !important;}
   .blue-girl{background-position: 50% 20%; background-size: cover;}
-  .alodoc{display:none;}
+/*  .alodoc{display:none;}*/
   .alodoc>.container {padding-top: 70px;  }
   .doc-body img{width: 100%;}
   .prevenir img{width: 300px !important;}
@@ -1850,7 +1850,7 @@ border-radius: 5px 5px 5px 5px;
   .council p{font-size: 20px;}
   .prevenir img{width: 300px !important;}
   .consult p{/*margin: 25px 36%;*/}
-  .alodoc{display:none;}
+/*  .alodoc{display:none;}*/
   .alodoc>.container {padding-top: 60px; padding-bottom: 20px; }
   .doc-body img{display:block; width: 90%;}
   .blue-girl{background-size: cover; background-position: 50% 0;}
@@ -1862,7 +1862,7 @@ border-radius: 5px 5px 5px 5px;
   .logo{width:50% !important;}
   .logo-banmedica{width:50% !important;}
   .logo img{width: 100%; max-width:187px; margin-left: 10px;}
-  .alodoc{display:none;}
+/*  .alodoc{display:none;}*/
   .nav>ul{float: right; width: 100%%;}
   .nav>ul>li>a {font-size: 13px !important; padding: 7.5px; }
   .doc-body img{display:none;}
@@ -1872,7 +1872,7 @@ border-radius: 5px 5px 5px 5px;
   .logo{width:50% !important;}
   .logo-banmedica{width:50% !important;}
   .logo img{width: 100%; max-width:187px; margin-left: 10px;}
-  .alodoc{display:none;}
+/*  .alodoc{display:none;}*/
   .nav>ul{float: left; width: 100%; background-color: rgba(57,181,228,0.5); margin-top: 20px; border-radius: 20px;}
   .nav>ul>li{float: none; display: block; padding-top:10px; padding-left:2%;} 
   .doc-body img{display:none;}
@@ -1891,8 +1891,8 @@ border-radius: 5px 5px 5px 5px;
    .roundprev h4 a {font-size: 17px;}
 
    .council p{font-size: 20px;}
-    .alodoc{display:none;}
-   .case a {font-size: 17px; width:100%;}
+/*    .alodoc{display:none;}
+*/   .case a {font-size: 17px; width:100%;}
 
    .consult p{margin: 0;}
 
@@ -1926,7 +1926,7 @@ border-radius: 5px 5px 5px 5px;
   .content span{text-align: center; display: table; margin: 0 auto;}
   .content p{text-align: center;}
   
-  .alodoc{display:none;}
+/*  .alodoc{display:none;}*/
   .prevencionhome>.container{padding-left:0; padding-right: 0;}
   .prevent h3{font-size: 40px;}
   .prevenir img{max-width: 300px; width: 95% !important;}
@@ -1964,6 +1964,7 @@ border-radius: 5px 5px 5px 5px;
 
   .prevencionhome {padding: 0 10px 30px; }
 
+  .col-md-12.jumbotron.caption.centered {float: none !important; }
    .copyrighted{float:left;}
    .sugerences h4{margin-bottom:10px; text-align: center;}
    .sugerences a{float:none; text-align: center;}
@@ -1975,7 +1976,7 @@ border-radius: 5px 5px 5px 5px;
 	.nav>ul>li>a{
 		/*font-size:16px !important;*/
 	}
-	.alodoc{display:none;}
+/*	.alodoc{display:none;}*/
 }
 
 
