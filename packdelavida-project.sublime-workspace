@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"ble",
+				"blue-girl"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"pre",
+				"prevent"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"blue",
+				"blue-girl"
+			],
+			[
+				"nav",
+				"navbar-toggle"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"lato",
+				"latolight"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"bckground",
+				"background-repeat"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"fff",
+				"ffffff"
+			],
+			[
 				"st",
 				"strong	Tag"
 			],
@@ -12,32 +100,8 @@
 				"h3	Tag"
 			],
 			[
-				"background",
-				"background-position"
-			],
-			[
 				"conten",
 				"contenedor-footer"
-			],
-			[
-				"padding",
-				"padding-top"
-			],
-			[
-				"paddin",
-				"padding-right"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"blue",
-				"blue-timing"
 			],
 			[
 				"form",
@@ -68,24 +132,12 @@
 				"panel-body"
 			],
 			[
-				"margi",
-				"margin-left"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"backgr",
 				"background-image"
 			],
 			[
 				"border",
 				"border-radius"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"pad",
@@ -106,10 +158,6 @@
 			[
 				"f",
 				"font-family"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"MARGIN",
@@ -188,10 +236,6 @@
 				"border-top"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"ma",
 				"margin"
 			],
@@ -215,6 +259,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "wp-content/themes/pack/index.php",
+			"settings":
+			{
+				"buffer_size": 12110,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/pack/header.php",
+			"settings":
+			{
+				"buffer_size": 5632,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/pack/jstyle.css",
+			"settings":
+			{
+				"buffer_size": 2423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/pack/style.css",
+			"settings":
+			{
+				"buffer_size": 65037,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -240,6 +316,8 @@
 	},
 	"file_history":
 	[
+		"/Users/upmedia/GitHub/packdelavida/wp-content/themes/pack/style.css",
+		"/Users/upmedia/GitHub/packdelavida/wp-config.php",
 		"/Users/upmedia/Desktop/Sitio Alimentate Sano/noticia_2015_mayo_30_15.php",
 		"/Users/upmedia/Desktop/Sitio Alimentate Sano/noticia_2015_mayo_31_15.php",
 		"/Users/upmedia/Desktop/Sitio Alimentate Sano/receta_de_la_semana.php",
@@ -365,9 +443,7 @@
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/header-egresados.php",
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/error_log",
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/.htaccess-bak",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/archive.php",
-		"/Users/upmedia/GitHub/IPChile/landing.html",
-		"/Users/upmedia/Dropbox/Super Team/@ipchile/Landing/IPChile/index.html"
+		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/archive.php"
 	],
 	"find":
 	{
@@ -385,6 +461,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"case",
+			"col-md-20",
+			";}",
+			".reasons",
+			"bigcarousel",
+			"media",
 			"recetas",
 			"navidena",
 			"mCustomScrollBox mCS-light",
@@ -506,13 +588,7 @@
 			".mainNav ul li a",
 			"ventajaVertical",
 			".boxSoftware",
-			"        <?",
-			".ventajaBox",
-			"h4",
-			"ventajaUNo",
-			"ventajaBox",
-			"shadow",
-			"lineRi"
+			"        <?"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -530,8 +606,142 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/pack/index.php",
+					"settings":
+					{
+						"buffer_size": 12110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8206,
+								8206
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1188.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/pack/header.php",
+					"settings":
+					{
+						"buffer_size": 5632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4540,
+								4540
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1034.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/pack/jstyle.css",
+					"settings":
+					{
+						"buffer_size": 2423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/pack/style.css",
+					"settings":
+					{
+						"buffer_size": 65037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59046,
+								59046
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 30481.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -552,11 +762,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

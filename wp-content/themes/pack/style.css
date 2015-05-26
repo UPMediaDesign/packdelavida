@@ -1368,7 +1368,8 @@ section.anti-arrow:after {
 }
 
 /* Alo Doctor */
-.alodoc{background: url("images/bg-alodoc.jpg"); background-repeat: no-repeat; background-size: 100%}
+
+.alodoc{display:none;background: url("images/bg-alodoc.jpg"); background-repeat: no-repeat; background-size: 100%}
 .alodoc>.container{padding-top:95px;}
 .doc-body img{width: 80%; max-width: 370px; margin: 0 auto; display: block; }
 
@@ -1620,7 +1621,7 @@ border-bottom:1px solid #efeded;
     color:#333 !important;
 }
 
-.nav>ul{float: none; padding-bottom: 10px; margin: 0 auto; display: table; text-align: center; }
+.nav>ul{float: none; padding-bottom: 10px; margin: 0 auto; display: table; text-align: center; width: 100%}
 
 .nav>ul>li{
 list-style: none;
@@ -1825,70 +1826,156 @@ border-radius: 5px 5px 5px 5px;
   background: #39b5e4;
 }
 
-@media only screen and (min-width: 1024px){
+
+
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+  .logo{width:50% !important;}
+  .logo-banmedica{width:50% !important;}
   li.bg1{background-size: cover !important;}
   .sugerences{background-size: cover !important;}
+  .blue-girl{background-position: 50% 20%; background-size: cover;}
+  .alodoc{display:none;}
+  .alodoc>.container {padding-top: 70px;  }
+  .doc-body img{width: 100%;}
+  .prevenir img{width: 300px !important;}
 }
 @media only screen and (min-width: 935px) and (max-width: 1023px){
-  .logo img{width: 100%; max-width: 200px;}
+  .logo{width:50% !important;}
+  .logo-banmedica{width:50% !important;}
+  .nav>ul>li>a {font-size: 13px !important; }
+  .logo img{width: 100%; max-width:187px; margin-left: 10px;}
   .nav>ul{float: none; width: 100%;} 
   li.bg1{background-size: cover !important;}
-  .sugerences{background-size: cover !important;}
+  .sugerences{background-size: cover !important; background-position: 45%;}
   .council p{font-size: 20px;}
-
-  .consult p{margin: 25px 36%;}
-
+  .prevenir img{width: 300px !important;}
+  .consult p{/*margin: 25px 36%;*/}
+  .alodoc{display:none;}
+  .alodoc>.container {padding-top: 60px; padding-bottom: 20px; }
+  .doc-body img{display:block; width: 90%;}
+  .blue-girl{background-size: cover; background-position: 50% 0;}
+  .case a{width:100%;}
   .sugerences p{font-size: 20px;}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 934px) {
-  .nav>ul{float: right; width: 68%;}
+  .logo{width:50% !important;}
+  .logo-banmedica{width:50% !important;}
+  .logo img{width: 100%; max-width:187px; margin-left: 10px;}
+  .alodoc{display:none;}
+  .nav>ul{float: right; width: 100%%;}
+  .nav>ul>li>a {font-size: 13px !important; padding: 7.5px; }
+  .doc-body img{display:none;}
 }
 
 @media only screen and (min-width: 641px) and (max-width: 768px){
-  .nav>ul{float: none; width: 100%; background-color: rgba(57,181,228,0.5); margin-top: 20px; border-radius: 20px;}
+  .logo{width:50% !important;}
+  .logo-banmedica{width:50% !important;}
+  .logo img{width: 100%; max-width:187px; margin-left: 10px;}
+  .alodoc{display:none;}
+  .nav>ul{float: left; width: 100%; background-color: rgba(57,181,228,0.5); margin-top: 20px; border-radius: 20px;}
   .nav>ul>li{float: none; display: block; padding-top:10px; padding-left:2%;} 
+  .doc-body img{display:none;}
 }
 
 @media only screen and (min-width: 641px) and (max-width: 934px){
-   .logo img{width: 100%; max-width: 200px;}
+   .blue-girl {background: #228CB4; }
+   .alodoc>.container {padding-top: 50px; padding-bottom: 85px; }
+   .alodoc{background-size: cover;}
+   .logo img{width: 100%; max-width:187px; margin-left: 10px;}
    li.bg1{background-size: cover !important;}
    .sugerences{background-size: cover !important;}
    .carousel-caption.jumbotron{width: 100%; left: 0;}
+   .prevenir img {max-width: 320px; width: 100% !important; border: 10px solid #cacaca !important; }
+   .roundprev figcaption {position: relative; bottom: 125px; }
+   .roundprev h4 a {font-size: 17px;}
 
    .council p{font-size: 20px;}
+    .alodoc{display:none;}
+   .case a {font-size: 17px; width:100%;}
 
-   .consult p{margin: 25px 36%;}
+   .consult p{margin: 0;}
 
    .copyrighted{float:left;}
-
+    .sugerences {background: #238CB4;} 
    .sugerences p{font-size: 20px;}
+   .navbar-toggle {background: #33d0b4 !important; clear: both; }
+   .prevencionhome>.container{padding-left:0; padding-right: 0;}
+   .pinkfoot ul{padding-left: 0;}
 }
 
 @media only screen and (max-width: 640px){
-  .logo{width: 60%; max-width: 200px;}
-  .logo img{width: 100%; max-width: 400px;}
-  .nav>ul{float: none; width: 100%; background-color: rgba(57,181,228,0.5); margin-top: 20px; border-radius: 20px;}
+  .logo{width: 50%; max-width: 200px; padding:6px;}
+  .logo-banmedica{width:50%; max-width:200px; padding:8px;}
+  .logo-banmedica img{  float: none; margin-right: 5px;}
+  .logo img{width: 100%; max-width: 400px; margin-left:5px;}
+
+  .carousel-caption{padding: 0 10px !important;}
+  .blue-girl{background-size: cover;}
+
+  .navbar-toggle{background:#33d0b4 !important;}
+  .navbar-toggle:hover {background: #229B85 !important;}
+  .nav>ul{float: none; width: 100%; background-color: rgba(57,181,228,0.8); margin-top: 20px; border-radius: 20px;}
   .nav>ul>li{float: none; display: table; margin: 0 auto; padding: 10px 0;} 
   li.bg1{background-size: cover !important;}
-  .sugerences{background-size: cover !important;}
+
+  .consult h3{font-size: 35px; margin-top: 5px; line-height: 1.3em; text-align: center;}
+  .consult p {margin: 0; text-align: center;}
+
+  .content h3{text-align:center;}
+  .content span{text-align: center; display: table; margin: 0 auto;}
+  .content p{text-align: center;}
+  
+  .alodoc{display:none;}
+  .prevencionhome>.container{padding-left:0; padding-right: 0;}
+  .prevent h3{font-size: 40px;}
+  .prevenir img{max-width: 300px; width: 95% !important;}
+
+  .col-md-12.prevent{padding: 0;}
+  .sugerences {background: #238CB4 ;}
   .carousel-caption.jumbotron{width: 100%; left: 0;}
 
-   .council p{font-size: 20px;}
+  .whypack>.row {margin-left: 0; margin-right: 0; }
+  
+  .title-case h3 {font-size: 40px; }
+  .title-case p{padding: 0 15px;}
+  .case h3{margin-top: 0;}
+  .case a{margin:0 auto 30px; width:100%;}
 
-   .consult p{margin: 25px 36%;}
+  .stadistics h3{font-size: 40px;}
+
+  .pinkfoot ul{padding-left: 0;}
+  .council p{font-size: 20px;}
+
+  .cta a{margin: 0 auto; display: table;}
+
+  .col-md-20 p {padding: 20px 10px;}
+
+  .doc-body{display:none;}
+  .alodoc{background-size: cover;}
+
+  section.arrow:before {content: ''; background-color: #f7f7f7; border-bottom: 95px solid #f7f7f7; transform: skewY(-5deg); -webkit-transform: skewY(-5deg); -moz-transform: skewY(-5deg); -ms-transform: skewY(-5deg); -o-transform: skewY(-5deg); display: block; width: 50%; position: relative; top: 30px; float: right; }
+  section.arrow:after {content: ''; background-color: #f7f7f7; border-bottom: 95px solid #f7f7f7; transform: skewY(5deg); -webkit-transform: skewY(5deg); -moz-transform: skewY(5deg); -ms-transform: skewY(5deg); -o-transform: skewY(5deg); display: block; width: 50%; position: relative; top: 30px; }
+
+  .alodoc>.container {padding-top: 60px; padding-bottom: 95px; }
+
+  section.anti-arrow:before {content: ''; background-color: #ffffff; border-bottom: 40px solid #ffffff; transform: skewY(-5deg); -webkit-transform: skewY(-5deg); -moz-transform: skewY(-5deg); -ms-transform: skewY(-5deg); -o-transform: skewY(-5deg); display: block; width: 50%; position: relative; top: -30px; float: right; }
+  section.anti-arrow:after {content: ''; background-color: #ffffff; border-bottom: 40px solid #ffffff; transform: skewY(5deg); -webkit-transform: skewY(5deg); -moz-transform: skewY(5deg); -ms-transform: skewY(5deg); -o-transform: skewY(5deg); display: block; width: 50%; position: relative; top: -30px; }
+
+  .prevencionhome {padding: 0 10px 30px; }
 
    .copyrighted{float:left;}
-   .sugerences h4{margin-bottom:10pxs;}
+   .sugerences h4{margin-bottom:10px; text-align: center;}
+   .sugerences a{float:none; text-align: center;}
    .border-solid{margin-bottom:15px;}
-   .sugerences p{font-size: 20px; margin: 20px 2%;}
+   .sugerences p{font-size: 20px; margin: 20px 2%; text-align: center;}
 }
 
 @media (max-width: 1600px) {
 	.nav>ul>li>a{
-		font-size:16px !important;
+		/*font-size:16px !important;*/
 	}
-	
+	.alodoc{display:none;}
 }
 
 

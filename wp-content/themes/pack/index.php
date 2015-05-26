@@ -126,7 +126,7 @@ El Dr. Jara, vocero médico de la Fundación Banmédica, está a tu disposción 
             <div class="container consult prevenir"> 
                 <div class="row">  
                    
-                    <figure class="col-md-4 roundprev">
+                    <figure class="col-md-4 col-sm-4 roundprev">
                         <a style="border-top:none !important;" href="<?php echo get_page_link(9)?>/#seccion-4"><img src="<?php bloginfo('template_directory')?>/images/diabetes.jpg" width="200" alt="" />
                             </a>
                             <figcaption>
@@ -135,7 +135,7 @@ El Dr. Jara, vocero médico de la Fundación Banmédica, está a tu disposción 
                             </figcaption>
                         
                     </figure>
-                    <figure class="col-md-4 roundprev">
+                    <figure class="col-md-4 col-sm-4 roundprev">
                         <a style="border-top:none !important;" href="<?php echo get_page_link(9)?>/#seccion-4"><img src="<?php bloginfo('template_directory')?>/images/hipertension.jpg"  width="200" alt="" /></a>
                         <figcaption>
                                 <h4><a href="<?php echo get_page_link(9)?>/#seccion-4">Hipertensión</a></h4>
@@ -143,7 +143,7 @@ El Dr. Jara, vocero médico de la Fundación Banmédica, está a tu disposción 
                         </figcaption>
                         
                     </figure>
-                    <figure class="col-md-4 roundprev">
+                    <figure class="col-md-4 col-sm-4 roundprev">
                         <a style="border-top:none !important;" href="<?php echo get_page_link(9)?>/#seccion-4"><img src="<?php bloginfo('template_directory')?>/images/cardio.jpg" width="200" alt="" /></a>
                         <figcaption>
                                 <h4><a href="<?php echo get_page_link(9)?>/#seccion-4">Enfermedades<br />Cardiovasculares</a></h4>
@@ -170,7 +170,7 @@ El Dr. Jara, vocero médico de la Fundación Banmédica, está a tu disposción 
 
                     <?php query_posts( 'page_id=7' );?>
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <figure class="col-md-esp col-md-4 case">
+                    <figure class="col-md-esp col-md-4 col-sm-4 case">
                         <?php the_post_thumbnail('home-boxes'); ?>
                         <h3><a href="<?php the_permalink(); ?>" title="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                     </figure>
@@ -180,7 +180,7 @@ El Dr. Jara, vocero médico de la Fundación Banmédica, está a tu disposción 
 
                     <?php query_posts( 'page_id=9' );?>
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <figure class="col-md-esp col-md-4 case">
+                    <figure class="col-md-esp col-md-4 col-sm-4 case">
                         <?php the_post_thumbnail('home-boxes'); ?>
                          <h3><a href="<?php the_permalink(); ?>" title="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h3>
                     <?php endwhile; endif; ?>
@@ -190,7 +190,7 @@ El Dr. Jara, vocero médico de la Fundación Banmédica, está a tu disposción 
 
                     <?php query_posts( 'page_id=11' );?>
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    <figure class="col-md-esp col-md-4 case">
+                    <figure class="col-md-esp col-md-4 col-sm-4 case">
                         <?php the_post_thumbnail('home-boxes'); ?>
                          <h3><a href="<?php the_permalink(); ?>" title="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h3>
                     </figure>

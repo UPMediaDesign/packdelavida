@@ -82,7 +82,7 @@
                 <a href="http://www.fundacionbanmedica.cl" title="Fundación Banmédica" rel="nofollow" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/logo-whitehigh.png"></a>
               </div>
 
-              <div class="container-fluid">
+              <div class="container-fluid clear">
                 <div class="navbar-header">
                 <button class="navbar-toggle collapsed btn-lg icon-bar" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                   <span class="sr-only">Menú</span>
