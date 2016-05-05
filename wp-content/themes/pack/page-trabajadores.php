@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Intra Trabajadores
+*/
+?>
 <?php get_header()?>
 		<?php $topimagen = get_field('top_imagen' , $post->ID)?>
         <div class="varices" style="background-image:url(<?php echo $topimagen?>)">
@@ -16,9 +21,11 @@
         </div>
 
         <aside class="float-cta">
-            <a href="http://www.packdelavida.cl/hazte-el-pack/">
+            
+            <a href="http://www.packdelavida.cl/hazte-el-pack-trabajadores/">
                 <img src="<?php bloginfo('template_directory')?>/images/float_cta.png" alt="">
             </a>
+
         </aside>
 		
         <?php $contenidos = get_field('contenedor');?>
@@ -41,12 +48,10 @@
             
         </section>
         <!-- Fin Subnavegación verde -->
-		
         
         <?php $scounter = 0;?>
         <?php foreach($contenidos as $contenido):?>
         	<?php $scounter++?>
-            
             
             
         	<section id="seccion-<?php echo $scounter?>" class="page-content <?php if($contenido["especial"]){echo 'caja';}?>">
@@ -80,8 +85,6 @@
                                         <?php echo apply_filters('the_content' , $contenido["editor"])?>
                                     </div>
                                 <?php }?>
-
-                                
                                 
                             <?php }else{?>
                             <div class="col-md-8 col-md-offset-2">
@@ -90,7 +93,7 @@
                             <?php }?>
                             <?php if($contenido["especial"]){?>
                                 <style type="text/css">
-                                	.esp-<?php echo $scounter?>{ display:none}
+                                	.esp-<?php echo $scounter?>{ display:none;}
                                 </style>
                             <?php }?>
                             
@@ -190,34 +193,9 @@
                 </div>
             </section>
         	
-            
-           
-            
+         
         <?php endforeach;?>
-        
-        <?php /*?>
-        <?php if(is_page(164)){?>
-            	<section style="background-color:#c2c2c2">
-                <div class="clear separator"></div>
-                	<div class="container">
-                	  <div class="row">
-                      	<div class="clinicas">
-                        	<div class="col-md-8 col-md-offset-2">
-                                    
-								  <?php $clinicas = get_field('clinicas_asociadas' , 'options')?>
-                                  <?php foreach( $clinicas as $clinica):?>
-                                      <div class="col-xs-4 col-md-3 clinic">
-                                          <a href="<?php echo $clinica['link_clinica']?>" target="_blank" title="Adquirir Pack de la vida en <?php echo $clinica['nombre_de_la_clinica']?>"><img src="<?php echo $clinica['logo_clinica']?>" width="100%" alt="" /></a>
-                                      </div>
-                                  <?php endforeach;?>
-                             </div>
-                           </div>
-                      </div>
-                	</div>
-                    <div class="clear separator"></div>
-                </section>
-            <?php }?><?php */?>
-            
+           
             
             
             

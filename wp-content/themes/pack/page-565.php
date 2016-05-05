@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Hazte el Pack Trabajadores
+*/
+?>
 <?php get_header()?>
 		<?php $topimagen = get_field('top_imagen' , $post->ID)?>
         <div class="varices" style="background-image:url(<?php echo $topimagen?>)">
@@ -47,8 +52,6 @@
         <?php foreach($contenidos as $contenido):?>
         	<?php $scounter++?>
             
-            
-            
         	<section id="seccion-<?php echo $scounter?>" class="page-content <?php if($contenido["especial"]){echo 'caja';}?>">
             	<div class="container white">
                 	<div class="row about">
@@ -90,7 +93,7 @@
                             <?php }?>
                             <?php if($contenido["especial"]){?>
                                 <style type="text/css">
-                                	.esp-<?php echo $scounter?>{ display:none}
+                                	.esp-<?php echo $scounter?>{ display:none;}
                                 </style>
                             <?php }?>
                             
@@ -191,35 +194,80 @@
             </section>
         	
             
-           
-            
         <?php endforeach;?>
         
-        <?php /*?>
-        <?php if(is_page(164)){?>
-            	<section style="background-color:#c2c2c2">
-                <div class="clear separator"></div>
-                	<div class="container">
-                	  <div class="row">
-                      	<div class="clinicas">
-                        	<div class="col-md-8 col-md-offset-2">
-                                    
-								  <?php $clinicas = get_field('clinicas_asociadas' , 'options')?>
-                                  <?php foreach( $clinicas as $clinica):?>
-                                      <div class="col-xs-4 col-md-3 clinic">
-                                          <a href="<?php echo $clinica['link_clinica']?>" target="_blank" title="Adquirir Pack de la vida en <?php echo $clinica['nombre_de_la_clinica']?>"><img src="<?php echo $clinica['logo_clinica']?>" width="100%" alt="" /></a>
-                                      </div>
-                                  <?php endforeach;?>
-                             </div>
-                           </div>
-                      </div>
-                	</div>
-                    <div class="clear separator"></div>
-                </section>
-            <?php }?><?php */?>
-            
-            
-            
+        
+
+            	<section id="seccion-2" class="page-content ">
+            	<div class="container white">
+                	<div class="row about">
+                    
+                    	<div class="col-md-12">
+                            <h2 id="que-son-las-varices">¿Dónde me hago el Pack de la Vida?</h2>
+                            <div class="line-green esp-2"></div>
+                        </div>  
+                        <div class="clear"></div>
+                        
+                        <style>
+						.clinics, .clinics h3 , .clinics p{ text-align: left !important;}
+						.clinics p{ font-size:16px !important;}
+                        .clinics img{ width:120px !important; height:120px; margin-bottom:0px !important;}
+						.wpcf7 input, .wpcf7 textarea {padding: 10px; margin-bottom: 10px; width: 100%; border-radius: 5px; border: 1px solid #39b5e4; font-size: 18px; background-color:#f2f2f2 ;}
+
+                        .wpcf7 .wpcf7-submit{ background-color: #39b5e4; color:#fff; font-weight:700;}
+						
+                        </style>
+                        
+                        <div class="col-md-6 clinics">
+                        
+                        	<div class="flex">
+                                <a href="http://www.clinicasantamaria.cl/" target="_blank"><img class="alignleft size-full wp-image-281" src="http://www.packdelavida.cl/wp-content/uploads/2014/11/Clinica-Santa-Maria.jpg" alt="Clinica-Santa-Maria" width="120" height="120"></a><h3>Clínica Santa María</h3> 
+<p>Av. Santa María 0500, Providencia, Santiago de Chile.<br>Mesa Central: (`+562) 2 913 33 96</p>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="flex">
+                                <a href="http://www.clinicasantamaria.cl/" target="_blank"><img class="alignleft size-full wp-image-281" src="http://www.packdelavida.cl/wp-content/uploads/2014/11/santamarialadehesa.png" alt="Clinica-Santa-Maria" width="120" height="120"></a><h3>Centro Médico Clínica Santa María La Dehesa</h3>
+<p>Avda. La Dehesa 1445, La Dehesa, Santiago de Chile.<br>Mesa Central: (+562) 2 913 33 96</p>
+                            </div>
+                            <div class="clear"></div>
+                            <div class=" flex">
+                                <a href="http://www.davila.cl/pack-de-la-vida" target="_blank"><img class="alignleft size-full wp-image-283" src="http://www.packdelavida.cl/wp-content/uploads/2014/11/Clinica-Davila.jpg" alt="Clinica-Davila" width="120" height="120"></a><h3>Clínica Dávila</h3>
+<p>Avenida Recoleta 464, Santiago<br>Mesa Central<strong>:</strong> (+562) 2 730 80 00</p>
+                            </div>
+                            <div class="clear"></div>
+                            <div class=" flex">
+                                <a href="http://www.vidaintegra.cl/pack-de-la-vida.asp"><img class="alignleft wp-image-284 size-full" src="http://www.packdelavida.cl/wp-content/uploads/2014/11/Vida-Integra.jpg" alt="Vida-Integra" width="120" height="120"></a><h3>Vida Integra</h3>
+<p>Fono: 600 600 8432 / (Celulares) 02 2 233 37 00</p>
+                            </div>
+                            
+                            <div class="clear"></div>
+                            
+                            <div class="flex">
+                                <a href="http://www.clinicavespucio.cl/pack.php" target="_blank"><img class="alignleft wp-image-285 size-full" src="http://www.packdelavida.cl/wp-content/uploads/2014/11/Clinica-Vespucio.jpg" alt="Clinica-Vespucio" width="120" height="120"></a><h3>Clínica Vespucio</h3>
+<p>Av. Serafín Zamora 190, La Florida<br>Mesa Central:  (+562) 2 820 69 13</p>
+                            </div>
+                            <div class="clear"></div>
+                            <div class=" flex">
+                                <a href="http://ccdm.cl/PDV/" target="_blank"><img class="alignleft wp-image-286 size-full" src="http://www.packdelavida.cl/wp-content/uploads/2014/11/Clinica-Ciudad-Mar.jpg" alt="Clinica-Ciudad-Mar" width="120" height="120"></a><h3>Clínica Ciudad del Mar</h3>
+<p>13 Norte 635, Viña del Mar<br>Fono: 5-778 88 76</p>
+                            </div>
+                            <div class="clear"></div>
+                            <div class=" flex">
+                                <a href="http://www.clinicabiobio.cl/" target="_blank"><img class="alignleft size-full wp-image-288" src="http://www.packdelavida.cl/wp-content/uploads/2014/11/ClinicaBioBio.jpg" alt="ClinicaBioBio" width="120" height="120"></a><h3>Clínica Bio Bío</h3>
+<p>Avenida Jorge Alessandri 3515, Talcahuano<br>Mesa Central: 41 – 273 42 00</p>
+                            </div>
+                                                
+                        </div>
+                        
+                        	
+                        <div class="col-md-6">
+                        	<?php echo do_shortcode('[contact-form-7 id="564" title="Inscripción Pack de la Vida Trabajadores"]')?>
+                        </div>
+                            
+                            
+                        <div class="clear separator"></div>
+                </div>
+            </section>
             
             
               <script>

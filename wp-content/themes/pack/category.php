@@ -18,6 +18,12 @@
                 </div>
             </div>
         </div>
+
+        <aside class="float-cta">
+            <a href="http://www.packdelavida.cl/hazte-el-pack/">
+                <img src="<?php bloginfo('template_directory')?>/images/float_cta.png" alt="">
+            </a>
+        </aside>
 		
         
      <div class="clear"></div>       

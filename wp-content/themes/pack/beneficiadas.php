@@ -20,6 +20,12 @@ Template Name: Beneficiadas
             </div>
         </div>
 
+        <aside class="float-cta">
+            <a href="http://www.packdelavida.cl/hazte-el-pack/">
+                <img src="<?php bloginfo('template_directory')?>/images/float_cta.png" alt="">
+            </a>
+        </aside>
+
         <section class="container white">
                 <div class="row">
                     <div class="col-md-12 medic-ask jumbotron">

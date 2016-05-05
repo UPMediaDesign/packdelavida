@@ -1,0 +1,218 @@
+@charset "utf-8";
+/*
+Theme Name: Landing Diabetes Banmédica
+Theme URL: packdelavida.cl/diabetes
+Description: Tema para campaña contra la diabetes forjado en los hornos de UP Media por las manos de Carlos Peña aka @CarlosChasca
+Version: 1.0 (Revised by Carlos Peña aka @CarlosChasca)
+Author: Upmedia (CarlosChasca) - Campaña por UP Media
+Author URL: http://upmedia.cl
+*/
+
+#menu-navegacion li a, #menu-navegacion-b li a, h1, h2 { text-transform: uppercase }
+h1, h2, h3, h4 {font-family: 'source_sans_probold', helvetica, arial, sans-serif }
+
+* { padding: 0; margin: 0 }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0 }
+.clearfix { display: inline-block }
+html[xmlns] .clearfix { display: block }
+* html .clearfix { height: 1% }
+
+.clear { clear: both }
+.izq, .left { float: left }
+.der, .right { float: right }
+
+.alignleft { display: inline; float: left; margin-right: 15px }
+.alignright { display: inline; float: right; margin-left: 15px }
+.aligncenter, .megacontainer { margin-right: auto; margin-left: auto }
+.aligncenter { clear: both; display: block }
+
+b, strong { font-weight: 700 }
+em, i { font-style: italic }
+small { font-size: 10px }
+p { font-family: helvetica, arial, sans-serif; color: #323232 }
+
+.separator {padding: 15px 0 }
+.miniseparator { padding-bottom: 10px }
+.microseparator { padding-bottom: 5px }
+.border { padding: 15px 15px 0; margin-bottom: 15px; border-bottom: 1px solid #ccc  }
+.bordery{ border: 1px solid #c2c2c2; border-left: 340px solid #fee00a; margin: 0 15px;}
+
+body { font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif !important; font-weight: 300; background-color: #fff; color: #343333;}
+
+.callout { border-bottom: 1px solid #ccc; padding: 20px; border-left: 6px solid #e21717 }
+blockquote , .callout  { background-color: #f2f2f2 }
+blockquote { border-left-color: #33567c }
+blockquote li { list-style-position: inside!important }
+
+.megacontainer { padding-right: 15px; padding-left: 15px; max-width: 1356px; }
+.container { max-width: 1170px }
+.nocontainer{ padding-right: 15px; padding-left: 15px; max-width: 100% }
+
+.col-lg-20, .col-md-20, .col-sm-20, .col-xs-20 { width: 20%; float: left; padding: 0 15px }
+.col-esp { padding: 0 }
+
+blockquote { border-left-color: #33567c }
+blockquote li { list-style-position: inside!important }
+
+.modal { z-index: 999999999 }
+.modal.modal-wide .modal-dialog { width: 90% }
+.modal-wide .modal-body { overflow-y: auto }
+.modal-backdrop.in { z-index: 9999; background-color: rgba(0, 0, 0, .9); opacity: 1 }
+.modal-lg { width: 80%; margin-top: 100px }
+.modal .close {color: #b40d65; font-size: 70px; margin: 0 0px; z-index: 99999; position: absolute; right: 10px; top: -70px; opacity: 1; text-shadow: none; }
+.modal-content { /*background-image: url(images/ng-bars.jpg); background-color: #525252*/ }
+.modal-body { padding: 50px }
+
+h3 { font-weight: 900; }
+.h4, .h5, .h6, h4, h5, h6 { margin-top: 0 }
+
+/* WEBFONTS */
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('fonts/sourcesanspro-bold-webfont.eot');
+    src: url('fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('fonts/sourcesanspro-light-webfont.eot');
+    src: url('fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-light-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.eot');
+    src: url('fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.eot');
+    src: url('fonts/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-semibold-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* FIN WEBFONTS */
+
+/******* ESTILOS RELACIONADOS AL HEADER *******/
+.pink-girl{background-image:url("images/landing_diabetes/bg_girl.jpg"); background-repeat: no-repeat; background-size: cover;}
+.pink-girl .jumbotron h1{font-size:226.666667px; color:transparent; text-align: center; font-weight: 800; line-height:1.2em; padding-bottom: 55px;}
+
+/* Navegación */
+.nav-sider{background:rgba(45, 43, 57, .3); border-radius:25px; position:absolute; z-index:999; right:0; bottom:15vh;}
+.nav-sider li{clear:both; list-style: none;}
+.nav-sider li a{}
+/******* FIN ESTILOS RELACIONADOS AL HEADER *******/
+
+/******* ESTILOS RELACIONADOS AL CONTENIDO *******/
+.suscribe{display:none !important;}/* Suscripción a Pack de la Vida */
+
+.initial{background: rgba(188,102,97,1); background: -moz-linear-gradient(top, rgba(188,102,97,1) 0%, rgba(172,78,75,1) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(188,102,97,1)), color-stop(100%, rgba(172,78,75,1))); background: -webkit-linear-gradient(top, rgba(188,102,97,1) 0%, rgba(172,78,75,1) 100%); background: -o-linear-gradient(top, rgba(188,102,97,1) 0%, rgba(172,78,75,1) 100%); background: -ms-linear-gradient(top, rgba(188,102,97,1) 0%, rgba(172,78,75,1) 100%); background: linear-gradient(to bottom, rgba(188,102,97,1) 0%, rgba(172,78,75,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc6661', endColorstr='#ac4e4b', GradientType=0 ); } 
+.initial p{font-family: 'source_sans_proregular', helvetica, arial, sans-serif; font-size: 38px; color: #eaeaea; text-align: center; margin-bottom: 0; padding: 5px 0;}
+.initial p strong{font-family: 'source_sans_probold', helvetica, arial, sans-serif;}
+
+.about{background: rgba(198,118,113,1); background: -moz-linear-gradient(top, rgba(198,118,113,1) 0%, rgba(160,94,91,1) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(198,118,113,1)), color-stop(100%, rgba(160,94,91,1))); background: -webkit-linear-gradient(top, rgba(198,118,113,1) 0%, rgba(160,94,91,1) 100%); background: -o-linear-gradient(top, rgba(198,118,113,1) 0%, rgba(160,94,91,1) 100%); background: -ms-linear-gradient(top, rgba(198,118,113,1) 0%, rgba(160,94,91,1) 100%); background: linear-gradient(to bottom, rgba(198,118,113,1) 0%, rgba(160,94,91,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c67671', endColorstr='#a05e5b', GradientType=0 ); border-bottom:5px solid #00487c;padding: 25px 0 80px;}
+.about p{font-family: 'source_sans_prolight', helvetica, arial, sans-serif; font-size: 25px; text-align: center; color: #ffffff; line-height:1.4em;}
+
+/* Contenido Niveles de Glucosa */
+.cerulean-drops{background:#eefcff; padding:0 0 35px;}
+.cerulean-drops .title-polygon{background: #8db235; -webkit-clip-path: polygon(10% 1%, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%); clip-path: polygon(10% 1%, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%); position: relative; left: 0; right: 0; float: none; margin: 0px auto; max-width: 640px; bottom: 35px; padding: 5px 0; max-height: 65px;}
+.cerulean-drops h2{ text-shadow: 2px 2px 0px rgba(31, 55, 105, 1); color:#ffffff; text-align:center;margin: 10px auto; }
+.cerulean-drops p{font-size:20px; line-height:1.4em; color:#00487c; text-align: left; font-family: 'source_sans_prolight', helvetica, arial, sans-serif; font-weight:; padding-bottom:20px;}
+
+.drop-base{background:url("images/landing_diabetes/drop_base.png"); background-repeat:no-repeat; background-size: 140px; color:#fff; background-position: center; margin-top:15px;}
+.drop-base header p {text-align: center; color: #fff; font-size: 25px; line-height: 1em; clear: both; margin-bottom: 0; padding-bottom: 0px; position: relative; top: 30px; margin-top: 40px;}
+.drop-base strong {clear: both; text-align: center; margin: 10px auto 0; display: block; font-size: 25px; }
+.drop-base span {background: #8db235; border-radius: 50%; width: 50px; position: absolute; right: 0; font-size: 13px; height: 50px; text-align: center; padding: 15px 0 0; top: 115px; }
+.drop-base footer{min-height:60px;}
+.drop-base footer p {clear: both; text-align: center; color: #fff; line-height: 1.2em; font-size: 15px; padding-bottom: 0; padding-top: 10px; }
+
+/* Contenido Resistencia a la Insulina */
+.resistance .side-title {background: #8DB235; padding: 5px 10px 5px; -webkit-clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0 50%); clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0 50%); position: relative; bottom: 30px; float: none; display: block; }
+.resistance h3{text-shadow: 2px 2px 0px rgba(31, 55, 105, 1); color:#ffffff; text-align:left;margin: 10px auto;}
+.resistance img{width:100%;}
+
+/* Tabs Tipos de Diabetes */
+
+/* tabs Prevenciones de Diabetes */
+
+/* Sugerencias contra la Diabetes */
+
+/* Gráfica estadística Diabetes */
+
+/******* FIN ESTILOS RELACIONADOS AL CONTENIDO *******/
+
+/******* ESTILOS RELACIONADOS AL FOOTER *******/
+.pinkfoot{background: #39b5e4;}
+.pinkfoot ul{list-style: none; margin-top:20px;}
+.pinkfoot li.tupp{text-transform: uppercase; color: #ffffff; font-family: 'helveticaNeue', helvetica, arial, sans-serif; font-weight: bold; margin-bottom: 25px; margin-top:0;}
+.pinkfoot li{margin:5px 0 ;}
+.pinkfoot li a{color: #ffffff; font-size: 14px; line-height: 140%; text-decoration: none; font-weight: lighter; letter-spacing:1px;}
+.pinkfoot li a:hover{color:#227A9B;}
+.credits span{text-transform: uppercase; color: #ffffff; font-family: 'helveticaNeue', helvetica, arial, sans-serif; font-weight: bold; margin-bottom: 15px; float: left; margin-top: 20px;}
+.credits a{float: left; clear: both;}
+.credits p{clear: both; font-family: 'helveticaNeue', helvetica, arial, sans-serif; color: #ffffff; font-weight: lighter; text-align: left; padding-right: 20%; line-height: 160%;}
+/******* FIN ESTILOS RELACIONADOS AL FOOTER *******/
+
+
+/**** MEDIA QUERIES aka Responsive Styles ****/
+@media only screen and (min-width: 1024px){
+	/** Header **/
+
+	/** Content **/
+
+	/** Footer **/
+
+}
+
+@media only screen and (min-width: 935px) and (max-width: 1023px){
+	/** Header **/
+
+	/** Content **/
+
+	/** Footer **/
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 934px){
+	/** Header **/
+
+	/** Content **/
+
+	/** Footer **/
+	.copyrighted{float:left;}
+	.pinkfoot ul{padding-left: 0;}
+
+}
+
+@media only screen and (max-width: 768px){
+	/** Header **/
+
+	/** Content **/
+
+	/** Footer **/
+	.pinkfoot ul{padding-left: 0;}
+
+}
+
+/* Aquí es donde termina el style y empieza la curiosidad */
+

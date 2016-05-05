@@ -69,7 +69,12 @@
 <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/images/og-iram.png" /> <?php } ?>
 
 <!--//FACEBOOK OG-->
-
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0014/4114.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
 </head>
 
 
@@ -77,14 +82,14 @@
       <header class="overhead pd0">
         <div id="container-fluid header">
               <div class="logo">
-                  <a href="<?php echo home_url() ?>"><img src="<?php bloginfo('template_directory'); ?>/images/packlogo.png" /></a>
+                  <a href="<?php echo home_url() ?>"><img src="<?php bloginfo('template_directory'); ?>/images/packlogo_.png" /></a>
               </div>
 
               <div class="logo-banmedica">
                 <a href="http://www.fundacionbanmedica.cl" title="Fundación Banmédica" rel="nofollow" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/logo-whitehigh.png"></a>
               </div>
 
-              <div class="container-fluid clear">
+              <div class="container-fluid clear menubarss">
                 <div class="navbar-header">
                 <button class="navbar-toggle collapsed btn-lg icon-bar" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                   <span class="sr-only">Menú</span>

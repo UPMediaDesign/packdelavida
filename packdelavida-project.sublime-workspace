@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
-				"background",
-				"background-position"
+				"templa",
+				"template_directory"
 			],
 			[
 				"padding",
-				"padding-left"
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"list",
+				"list-style"
 			],
 			[
 				"back",
@@ -54,10 +66,6 @@
 			[
 				"nav",
 				"navbar-toggle"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"bord",
@@ -260,50 +268,26 @@
 	"buffers":
 	[
 		{
-			"file": "wp-content/themes/pack/index.php",
-			"settings":
-			{
-				"buffer_size": 12111,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "wp-content/themes/pack/header.php",
 			"settings":
 			{
-				"buffer_size": 5808,
+				"buffer_size": 6174,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/pack/alo-doctor.php",
+			"file": "wp-content/themes/pack/header-landingdiabetes.php",
 			"settings":
 			{
-				"buffer_size": 11729,
+				"buffer_size": 1814,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/pack/functions.php",
+			"file": "wp-content/themes/pack/landing_diabetes.php",
 			"settings":
 			{
-				"buffer_size": 17428,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wp-content/themes/pack/footer.php",
-			"settings":
-			{
-				"buffer_size": 3363,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "wp-content/themes/pack/jstyle.css",
-			"settings":
-			{
-				"buffer_size": 5376,
+				"buffer_size": 7716,
 				"line_ending": "Unix"
 			}
 		},
@@ -311,8 +295,24 @@
 			"file": "wp-content/themes/pack/style.css",
 			"settings":
 			{
-				"buffer_size": 65493,
+				"buffer_size": 75330,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/pack/style_landing-diabetes.css",
+			"settings":
+			{
+				"buffer_size": 11698,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/pack/index.php",
+			"settings":
+			{
+				"buffer_size": 19491,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -340,6 +340,16 @@
 	},
 	"file_history":
 	[
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/page-565.php",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/index.php",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/page-446.php",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/page-443.php",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/page-164.php",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/page-trabajadores.php",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/jstyle.css",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/alo-doctor.php",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/functions.php",
+		"/Users/FrontUpmedia/Github/packdelavida/wp-content/themes/pack/footer.php",
 		"/Users/upmedia/GitHub/packdelavida/wp-content/themes/pack/jfunctions.php",
 		"/Users/upmedia/GitHub/packdelavida/wp-content/themes/pack/style.css",
 		"/Users/upmedia/GitHub/packdelavida/wp-config.php",
@@ -457,17 +467,7 @@
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/formulario/php/enviar-landing.php",
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/formulario/php/enviar_admision.php",
 		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/style.css",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/tpl_admision.php",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/.htaccess",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/tpl_admision_2.php",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/tpl_egresados_inicio.php",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/single.php",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/tpl_acreditacion.php",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/header.php",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/footer.php",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/header-egresados.php",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/error_log",
-		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/.htaccess-bak"
+		"/Users/upmedia/Desktop/Sitio IP Chile/ipchile/wp-content/themes/ipchile_2013/tpl_admision.php"
 	],
 	"find":
 	{
@@ -478,6 +478,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -485,6 +486,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"();?>",
+			"[contact-form-7 id=\"51\" title=\"Inscripción Pack de la Vida\"]",
+			"float-cta",
+			"alo doctor",
 			".alodoc",
 			"col-md-12 obten",
 			"class=\"suscribe\"",
@@ -608,11 +613,7 @@
 			".sabanaBox",
 			"\n	display:block;",
 			"wrapper",
-			"vertical",
-			"slide",
-			"subnav",
-			"heade",
-			".mainNav ul"
+			"vertical"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -635,158 +636,89 @@
 			[
 				{
 					"buffer": 0,
-					"file": "wp-content/themes/pack/index.php",
+					"file": "wp-content/themes/pack/header.php",
 					"settings":
 					{
-						"buffer_size": 12111,
+						"buffer_size": 6174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4742,
-								4742
+								4492,
+								4458
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1542.0,
+						"translation.y": 700.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "wp-content/themes/pack/header.php",
+					"file": "wp-content/themes/pack/header-landingdiabetes.php",
 					"settings":
 					{
-						"buffer_size": 5808,
+						"buffer_size": 1814,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1407,
-								1407
+								1540,
+								1540
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1324.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "wp-content/themes/pack/alo-doctor.php",
+					"file": "wp-content/themes/pack/landing_diabetes.php",
 					"settings":
 					{
-						"buffer_size": 11729,
+						"buffer_size": 7716,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6225,
-								6225
+								3115,
+								3115
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 389.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "wp-content/themes/pack/functions.php",
-					"settings":
-					{
-						"buffer_size": 17428,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14319,
-								14319
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4984.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "wp-content/themes/pack/footer.php",
-					"settings":
-					{
-						"buffer_size": 3363,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								50,
-								50
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1283.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -794,59 +726,32 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": "wp-content/themes/pack/jstyle.css",
-					"settings":
-					{
-						"buffer_size": 5376,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3459,
-								3459
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 6,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1069.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 3,
 					"file": "wp-content/themes/pack/style.css",
 					"settings":
 					{
-						"buffer_size": 65493,
+						"buffer_size": 75330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								62445,
-								62445
+								68149,
+								68124
+							],
+							[
+								68389,
+								68359
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -856,7 +761,66 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 30881.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "wp-content/themes/pack/style_landing-diabetes.css",
+					"settings":
+					{
+						"buffer_size": 11698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9747,
+								9747
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 866.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/pack/index.php",
+					"settings":
+					{
+						"buffer_size": 19491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 4.0,
+						"translation.y": 999.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -892,7 +856,7 @@
 		"cols":
 		[
 			0.0,
-			0.416951329552,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -931,6 +895,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 223.0,
+	"side_bar_width": 116.0,
 	"status_bar_visible": true
 }

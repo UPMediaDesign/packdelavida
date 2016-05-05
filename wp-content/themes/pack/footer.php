@@ -77,8 +77,102 @@
   ga('send', 'pageview');
 
 </script>
+
+<!-- Test IMC Script -->
+  <script>
+<?php if(is_home()){?>
+
+function calculaIMC(){
+  $('.resultado').removeClass('mostrar');
+  
+  var peso, altura, imc, leyenda;
+  peso=document.getElementById("peso").value;
+  altura=document.getElementById("altura").value/100;
+  imc=peso/(altura*altura);
+  
+  
+  
+  document.getElementById("imc").innerHTML=imc.toFixed(2);
+  if(imc<=18.49){
+    $('#resultado-bajopeso').addClass('mostrar');
+    $('.imc').addClass('mostrar');
+    var peso = (altura * altura*18.49-peso).toFixed(1);
+    $('.peso').html( peso );
     
+    //leyenda="Estas Bajo Peso " + (altura*altura*20.5-peso).toFixed(1) + " kilos"+". Cuídate e ingresa a: <br><a class='pack' target='blank_' href='http://www.packdelavida.cl/landing-imc/bajopeso.html'>Sugerencias ante Bajo Peso</a>";
+  }
+else if(imc>=24.99 && imc<=29.99)
+{
+  $('#resultado-sobrepeso').addClass('mostrar');
+  $('.imc').addClass('mostrar');
+  var peso = (peso - altura * altura * 24.99).toFixed(1);
+  $('.peso').html( peso );
+//leyenda="Tienes sobrepeso "+(peso-altura*altura*25.5).toFixed(1) +" kilos"+". Cuídate e ingresa a: <br><a class='pack' target='blank_' href='http://www.packdelavida.cl/landing-imc/sobrepeso.html'>Sugerencias ante Sobrepeso</a>";
+}
+else if(imc>=30.00)
+{
+  $('#resultado-obesidad').addClass('mostrar');
+  $('.imc').addClass('mostrar');
+  var peso = (peso - altura * altura * 30.00).toFixed(2);
+  $('.peso').html( peso );
+//leyenda="Te encuentras obeso "+(peso-altura*altura*30.0).toFixed(1) +" kilos"+". Cuídate e ingresa a: <br><a class='pack' target='blank_' href='http://www.packdelavida.cl/landing-imc/obesidad.html'>Sugerencias ante Obesidad</a>";
+}
+else
+ {
+  $('#resultado-normal').addClass('mostrar');
+  $('.imc').addClass('mostrar');
+  $('.peso').html( peso );
+ //leyenda="Peso Normal, debes mantenerte."+". Cuídate e ingresa a: <br><a class='pack' target='blank_' href='http://www.packdelavida.cl/landing-imc/normopeso.html'>Sugerencias ante Peso Normal</a>";
+ }
+document.getElementById("leyenda").innerHTML=leyenda;
+ }
+ //ya hice el test del IMC y mi resultado fue: imc
+function share(){
+  peso=document.getElementById("peso").value;
+  altura=document.getElementById("altura").value/100;
+  
+  var imc = (peso/(altura*altura)).toFixed(1);
+  
+  var picture = 'http://upmedia.cl/IMC/images/share-ganar-IMC.png' ;
+  FB.ui({
+     method: 'feed',
+     link: 'https://www.facebook.com/FundacionBanmedica/app_923615340994415',
+     picture : picture,
+     name : 'Mi índice de masa corporal es '+imc+'. Haz la prueba tu también',
+     caption : 'Pack de la Vida',
+     display: 'popup',
+     actions : {"name" : "Calcula tu IMC", "link": 'http://www.packdelavida.cl'} ,
     
-    
+     description: 'Pierdele el miedo a medir tu salud, calcula tu IMC e informate de la importancia de llevar una dieta saludable.', 
+     }, function(response){
+       if (response && !response.error_code) {
+
+      } else {
+        
+      }
+    });
+};
+ 
+function isNumberKey(evt){
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}
+<?php }?>
+</script>
+
+<!-- Fin script Test IMC -->
+
+<?php wp_footer();?>
+
+<?php if(is_page(417)){?>  
+    <script type="text/javascript">
+	setTimeout(function(){var a=document.createElement("script");
+	var b=document.getElementsByTagName("script")[0];
+	a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0014/4114.js?"+Math.floor(new Date().getTime()/3600000);
+	a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+	</script>
+<?php }?>
 
 </html>
